@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    
+
+
+}
+
+.container-fluid {
+    padding: 0%;
+    margin: auto;
+}
+
+.imgLogo {
+    margin-left: 40px;
+}
+div .container {
+    margin-bottom: 200px;
+}
+img .logoRecorte {
+    width: 20px;
+}
+
+.hero{
+    width: 100%;
+    min-height: 70vh;
+    /*background-image: url(../images/primeraF.jpg);
+    background-color: rgb(50, 40, 95);
+    opacity: 0.9;*/
+    background-position: center;
+    background-size: cover;
+    padding: 0px 5%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    font-size: 18px;
+}
+
+
+h1.txtCursos {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: white;
+    
+}
+
+a.dropdown-item{
+    line-height: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+/*:::: CANTACTO ::::*/
+
+h1.txtFormulario {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: rgb(209, 142, 53);
+
+}
+#nombre.control #apellido.control #email.control #mensaje.control{
+    font-size: 14px;
+    padding-bottom: 5px;
+} 
+
+.fondo{
+    background-image: url(../images/0055.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    width: 400px;
+    padding: 20px 20px 10px 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 3, 3);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario {
+    width: 500px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 218, 182);
+    
+
+}
+
+form .formulario {
+    justify-content: center;
+    align-items: center;
+}
+.container2 {
+    background-size: cover;
+}
+.content{
+    margin-top: 10%;
+    /*max-width: 600px;*/
+}
+.content h1{
+    font-size: 70px;
+    color: rgb(245, 245, 248);
+    font-weight: bold;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: rgb(245, 239, 239);
+    animation-delay: 0.5s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+/*:::: Imagen Hero ::::*/
+
+h1 {
+    z-index: 2;
+}
+
+.feature-img{
+    width: 27rem;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+h1.anim{
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+p.anim {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-img.anim{
+    animation-delay: 2s;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    padding-left: 15px;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }    
+}
+
+/*CARD SALUD*/
+
+div .card {
+    min-width: 200px;
+    flex: 350px;
+}
+
+div.Cursos centrados {
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+    max-width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+div.salud {
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+    max-width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.container card salud {
+    display: flex
+}
+
+.salud {
+    margin: auto;
+}
+
+
+.texto salud {
+    width: 50%;
+    text-align: justify;
+    padding: 0px 30px;
+
+}
+img.imgRedonda {
+    width: 100px;
+    border-radius: 50%;
+}
+div.parrafo {
+    color: white;
+    padding: 0px 10px 0px 50px;
+}
+
+.card shadow {
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+div.salud {
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+    max-width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+div .card {
+    margin:auto;
+}
+
+
+.acordeon {
+    width:auto;
+    height: 40vh;
+}
+
+
+/*:::::::::::::::::::Media Queries::::::::::::::::::*/
+
+/*:::::: Mobile ::::::*/
+    @media(max-width: 576px) {
+        .hero.content {
+            background-image: url(../images/primera.png);
+            width: 50%;
+            opacity: 0.2;
+        }
+        
+
+        img {
+            margin-left: 0px;
+        }
+        .imgLogo {
+            margin-left: 10px;
+        }
+
+        img.feature-img.anim{
+            width: 15rem;
+            position: absolute;
+            bottom: 0;
+            right: 5px;
+        }
+
+        h1.txtCursos {
+            font-size: 30px;
+            font-weight: bold;
+            padding-left: 30px;
+            color: white;
+        
+        }
+
+    h1 {
+        z-index: 2;
+
+    }
+            
+
+
+    h1.anim{
+        font-size: 40px;
+        font-weight: bold;
+        opacity: 1;
+    }
+
+    p.anim {
+        font-size: 16px;
+        z-index: 3;
+    }
+
+p .instituto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    div.parrafo {
+        color: white;
+        padding: 0px 10px 0px 30px;
+    }
+
+    .texto salud {
+        width: 80%;
+        text-align: justify;
+        padding: 0px 5px;
+    
+    }
+    .fondo {
+        width: 300px;
+    }
+
+
+    }
+
+    /*:::::: TABLET ::::::*/
+
+@media (max-width: 768px) {
+
+    h1 {
+        z-index: 2;
+    }
+
+    .feature-img{
+        width: 50%;
+        object-fit: contain;
+        z-index: 0;
+        
+}
+h1 .anim {
+    z-index: 2;
+}
+
+
+
+    p.anim {
+        font-size: 16px;
+    }
+
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 8px;
+            font-size: 14px;
+        }
+
+    .foot {
+        font-size: 14px;
+    }
+
+    h1.txtCursos {
+        font-size: 40px;
+        font-weight: bold;
+        padding-left: 30px;
+        color: white;
+    }
+        
+    
+}
+
+@media (max-width: 1024px) {
+    .feature-img{
+        width: 45%;
+        object-fit: contain;
+        
+        
+
+        }
+    
+}
+
